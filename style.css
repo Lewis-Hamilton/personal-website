@@ -79,3 +79,18 @@ margin-bottom:10px;
     /* margin-right:690px; */
     text-align: center
 }
+
+#name{
+    animation: motion 1s infinite;
+}
+
+@keyframes motion{
+    from {
+        margin-left: 0;
+        transform: rotate(0deg);
+    }
+    to {
+        margin-left: 50vw;
+        transform: rotate(360deg);
+    }
+}
