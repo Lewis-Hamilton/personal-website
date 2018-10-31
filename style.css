@@ -24,6 +24,7 @@ header{
     color:#ffffff;
     padding-top: 30px;
     min-height: 70px;
+    animation: color 3s infinite;
 }
 
 header a{
@@ -66,8 +67,8 @@ header a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: color 3s infinite;
 }
-
 #showcase h1{
 margin-top: 100px;
 font-size:55px;
@@ -81,16 +82,45 @@ margin-bottom:10px;
 }
 
 #name{
-    animation: motion 1s infinite;
+    animation: spin .0001s infinite, color 1s infinite;
+    
 }
 
-@keyframes motion{
+@keyframes width{
+    10%{
+        width: 2vw;
+    }
+    50%{
+        width: 10vw;
+    }
+    100%{
+        width: 2vw;
+    }
+}
+
+@keyframes spin{
     from {
-        margin-left: 0;
         transform: rotate(0deg);
     }
     to {
-        margin-left: 50vw;
         transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse{
+    from{
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+    }
+}
+
+@keyframes color{
+    from{
+        filter:hue-rotate(0deg);
+    }
+    to{
+        filter:hue-rotate(720deg);
     }
 }
