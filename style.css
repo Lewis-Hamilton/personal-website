@@ -24,7 +24,6 @@ header{
     color:#ffffff;
     padding-top: 30px;
     min-height: 70px;
-    animation: color 3s infinite;
 }
 
 header a{
@@ -77,13 +76,7 @@ margin-bottom:10px;
 
 #showcase p{
     font-size:20px;
-    /* margin-right:690px; */
     text-align: center
-}
-
-#name{
-    animation: spin .0001s infinite, color 1s infinite;
-    
 }
 
 @keyframes width{
@@ -95,15 +88,6 @@ margin-bottom:10px;
     }
     100%{
         width: 2vw;
-    }
-}
-
-@keyframes spin{
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
     }
 }
 
