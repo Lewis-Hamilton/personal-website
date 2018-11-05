@@ -22,8 +22,8 @@ ul{
 header{
     background: #2d3235;
     color:#ffffff;
-    padding-top: 30px;
-    min-height: 70px;
+    padding-top: 20px;
+    min-height: 60px;
 }
 
 header a{
@@ -79,7 +79,17 @@ margin-bottom:10px;
     text-align: center
 }
 
-/*easter eggs */
+/* resume.html */
+.box {
+    margin: 2%;
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* easter eggs */
 .animatedHue {
     animation: color 3s infinite;
 }
