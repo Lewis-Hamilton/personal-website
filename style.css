@@ -82,11 +82,30 @@ margin-bottom:10px;
 /* resume.html */
 .box {
     margin: 2%;
+    padding: 0 0 0 1%;
     width: 45%;
     height: 100%;
     display: inline-block;
     background-color: white;
+    color: #2d3235;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box h2{
+    font-size: 15px;
+    line-height: 10%;
+}
+
+.box h3{
+    font-size: 13px;
+    line-height: 30%;
+}
+
+.image img{
+    margin: 2%;
+    float: right;
+    width: 45%;
+    height: auto;
 }
 
 /* easter eggs */
