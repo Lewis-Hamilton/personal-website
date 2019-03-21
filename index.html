@@ -7,32 +7,61 @@
         <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
         <link rel="stylesheet" href="styles/materialize.css">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/home.css">
     </head>
 
     <body>
+
+        <!--Begin Navbar-->
         <nav>
             <div class="nav-wrapper">
                 <a href="#" target="_blank" class="brand-logo">Lewis Hamilton</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="./pages/projects.html">Projects</a></li>
-                    <li><li><a href="./pages/resume.html">Resume</a></li></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
+                    <li><a href="pages/resume.html">Resume</a></li>
                 </ul>
             </div>
         </nav>
+        <!--End Navbar-->
 
-        <section id="showcase">
+        <!--Begin Carousel-->
+        <div class="banner">
+            <img src="img/carousel/ocean.jpg">
+        </div>
+        <!--End Carousel-->
+
+        <!--Begin Footer-->
+        <footer class="page-footer">
             <div class="container">
-                <h1>All About Me</h1>
-                <p>Lewis is interested in computer hardware, cars, and video games.  His projects reflect that interest and drive him to learn more.</p>
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5>Visitors to this site have scored a combined total of...</h5>
+                        <p id="totalScore"></p>
+                        <h5>points!</h5>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="pages/projects.html">Projects</a></li>
+                            <li><a class="grey-text text-lighten-3" href="pages/resume.html">Resume</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#">Games</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </section> 
-
-        <footer>
-            <p>Lewis Hamilton, Copyright &copy; 2018</p>
+            <div class="footer-copyright">
+                <div class="container">
+                    <a href="#" target="blank">© 2019 Lewis Hamilton</a>
+                </div>
+            </div>
         </footer>
+        <!--Begin Footer-->
         
         <!--JS at bottom of page for faster load times-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="scripts/main.js"></script>
+        <script src="scripts/materialize.js"></script>
     </body>
 </html>

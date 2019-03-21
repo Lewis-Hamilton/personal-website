@@ -1,0 +1,23 @@
+.container{
+    height: 48vw;
+    width: 48vw;
+    margin: 2vw;    
+}
+
+.container img{
+    height: 48vw;
+    width: 48vw;
+}
+
+
+
+
+
+/*temporary*/
+.card {
+    width: 48vw;
+}
+
+.card img{
+    width: 48vw;
+}
