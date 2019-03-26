@@ -1,0 +1,28 @@
+        <div class="card">
+            <P>Typing Game</P>
+            <img class="image" src="../img/projects/typing.png" alt="screenshot of game running in unity">
+        </div>
+
+        <div class="card">
+            <P>Fixing Old Monitor (soldering capacitors)</P>
+        </div>
+
+        <div class="card">
+            <P>My ignite instructor asked for my help in making an ardiuno tool that students could use to learn code. I
+                plugged
+                in wires to ardiunos that were already mounted on a piece of wood. Then I soldered them to screws that were
+                also
+                already installed in the wood. It was a simple project but it took a long time to finish all six of them.
+            </P>
+            <img class="image" src="../img/projects/soldering.jpg" alt="soldering wires">
+        </div>
+
+        <div class="card">
+            <p>3D-Printing</p>
+            <img class="image" src="../img/projects/printing.jpg" alt="3D-Printer">
+        </div>
+
+        <div class="card">
+            <p>Personal Website</p>
+            <img class="image" src="../img/projects/website.PNG" alt="Screenshot of this website">
+        </div>

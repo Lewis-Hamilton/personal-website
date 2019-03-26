@@ -1,5 +1,6 @@
 .banner img{
-    max-height: 25vw;
+    max-height: 50vw;
     width: 100%;
     filter: blur(0px);
+    
 }

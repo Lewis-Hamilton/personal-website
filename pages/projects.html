@@ -3,68 +3,70 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Lewis Hamilton</title>
+        <title>Lewis Hamilton - Projects</title>
         <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
         <link rel="stylesheet" href="../styles/materialize.css">
         <link rel="stylesheet" href="../styles/main.css">
         <link rel="stylesheet" href="../styles/projects.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 
     <body>
 
         <!--Begin Navbar-->
+
+        <!--Begin Desktop Navbar-->
         <nav>
             <div class="nav-wrapper">
-                <a href="#" target="_blank" class="brand-logo">Lewis Hamilton</a>
+                <a href="#" target="_blank" class="brand-logo">Projects</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="resume.html">Resume</a></li>
                 </ul>
+        <!--End Desktop Navbar-->
+
+        <!--Begin Mobile Navbar-->
+                <div class="menuicon">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
             </div>
         </nav>
+        <ul id="slide-out" class="sidenav">
+            <li><a href="../index.html">Home</a></li>      
+            <li><a href="projects.html">Projects</a></li>         
+            <li><a href="resume.html">Resume</a></li>                             
+        </ul>
+        <!--End Mobile Navbar-->
+
         <!--End Navbar-->
 
         <!--Begin Cards-->
         <div class="container">
-            <img src="../img/projects/game_icon.jpg" alt="video game controller">
+            <img src="../img/projects/website_icon.jpg" alt="code">
+            <div class="centered">Websites</div>
+        </div>
+
+        <div class="container">
+            <img src="../img/projects/print_icon.jpg" alt="3D-Printer">
+            <div class="centered">3D-Printing</div>
+        </div>
+
+        <div class="container">
+            <a href="games.html"><img src="../img/projects/game_icon.jpg" alt="video game controller"></a>
+            <div class="centered">Games</div>
+        </div>
+
+        <div class="container">
+            <img src="../img/projects/plex_icon.PNG" alt="Plex Logo">
+            <div class="centered">Media Server</div>
         </div>
         <!--End Cards-->
 
-        <!--Begin Cards (temporary)-->
-        <div class="card">
-            <P>Typing Game</P>
-            <img class="image" src="../img/projects/typing.png" alt="screenshot of game running in unity">
-        </div>
-
-        <div class="card">
-            <P>Fixing Old Monitor (soldering capacitors)</P>
-        </div>
-
-        <div class="card">
-            <P>My ignite instructor asked for my help in making an ardiuno tool that students could use to learn code. I
-                plugged
-                in wires to ardiunos that were already mounted on a piece of wood. Then I soldered them to screws that were
-                also
-                already installed in the wood. It was a simple project but it took a long time to finish all six of them.
-            </P>
-            <img class="image" src="../img/projects/soldering.jpg" alt="soldering wires">
-        </div>
-
-        <div class="card">
-            <p>3D-Printing</p>
-            <img class="image" src="../img/projects/printing.jpg" alt="3D-Printer">
-        </div>
-
-        <div class="card">
-            <p>Personal Website</p>
-            <img class="image" src="../img/projects/website.PNG" alt="Screenshot of this website">
-        </div>
-        <!--End Cards-->
-
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <!--JS at bottom of page for faster load times-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="../scripts/main.js"></script>
-
+        <script src="../scripts/materialize.js"></script>
     </body>
 
 </html>

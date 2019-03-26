@@ -1,8 +1,43 @@
 /*Begin Navbar*/
+
+/*Begin Desktop Navbar*/
 .nav-wrapper{
     background-color: rgb(26, 60, 133);
     padding: 0 10px 0 10px;
 }
+
+.material-icons{
+    display: none !important;
+}
+/*End Desktop Navbar*/
+
+/*Begin Mobile Navbar*/
+@media screen and (max-width: 992px) {
+    nav .brand-logo{
+        position: static !important;
+        transform: none !important;
+    }
+
+    .menuicon .material-icons{
+        display: block !important;
+        font-size: 35px !important;
+    }
+
+    .menuicon{
+        float: right;
+    }
+
+    .sidenav{
+        background-color: rgb(26, 60, 133);
+    }
+
+    .sidenav a{
+        color: white !important;
+    }
+}    
+
+/*End Mobile Navbar*/
+
 /*End Navbar*/
 
 /*Begin Footer*/
